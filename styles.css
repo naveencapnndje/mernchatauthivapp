@@ -1,0 +1,122 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0a0a1e; /* Dark Blue Black */
+  color: #d0d0ff; /* Light Blue */
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #121230; /* Dark Navy Blue */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 119, 255, 0.2);
+}
+
+/* Login Container */
+.login-container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.login-container input {
+  padding: 12px;
+  margin-right: 10px;
+  width: 220px;
+  font-size: 1em;
+  border: 1px solid #003366;
+  border-radius: 5px;
+  background: #1b1b3a; /* Dark Blue */
+  color: #d0d0ff;
+}
+
+.login-container input:focus {
+  outline: none;
+  border-color: #008cff; /* Bright Blue */
+}
+
+/* Chat Container */
+.chat-container {
+  border: 1px solid #004080;
+  border-radius: 8px;
+  padding: 20px;
+  background: #121230;
+}
+
+/* Messages */
+.messages {
+  height: 400px;
+  overflow-y: auto;
+  margin-bottom: 20px;
+  border: 1px solid #002855;
+  padding: 15px;
+  background: #0a0a26; /* Very Dark Blue */
+  border-radius: 5px;
+}
+
+.message {
+  margin-bottom: 15px;
+  padding: 12px;
+  border-radius: 5px;
+  background-color: #20204a; /* Deep Blue */
+  font-size: 1em;
+}
+
+.own-message {
+  background-color: #30306a; /* Medium Blue */
+  margin-left: 20%;
+}
+
+.message-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  font-size: 0.9em;
+  color: #66a3ff; /* Soft Blue */
+  font-weight: bold;
+}
+
+.message-content {
+  word-break: break-word;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 12px;
+  font-size: 1em;
+  border: 1px solid #004080;
+  border-radius: 5px;
+  background: #1b1b3a;
+  color: #d0d0ff;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #008cff;
+}
+
+/* Button */
+button {
+  padding: 12px 20px;
+  background-color: #002244; /* Dark Navy */
+  color: white;
+  border: 1px solid #008cff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+button:hover {
+  background-color: #004080;
+}
